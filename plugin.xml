@@ -37,13 +37,14 @@
 		<source-file src="src/ios/AppDelegate+UmengPush.m" />
 
 		<!-- umeng push -->
-		<header-file src="src/ios/libs/UMessage_Sdk_1.2.2/UMessage.h" />
-		<source-file src="src/ios/libs/UMessage_Sdk_1.2.2/libUMessage_Sdk_1.2.2.a" framework="true" />
-    <resource-file src="src/ios/res/en.lproj" />
-    <resource-file src="src/ios/res/zh-Hans.lproj" />
+		<header-file src="src/ios/libs/UMessage_Sdk_1.4.0/UMessage.h" />
+		<source-file src="src/ios/libs/UMessage_Sdk_1.4.0/libUMessage_Sdk_1.4.0.a" framework="true" />
+		<resource-file src="src/ios/res/en.lproj" />
+		<resource-file src="src/ios/res/zh-Hans.lproj" />
 
 		<!-- other required frameworks -->
 		<framework src="libz.dylib" />
+		<framework src="UserNotifications.framework" />
 	</platform>
 
 	<!-- android -->
